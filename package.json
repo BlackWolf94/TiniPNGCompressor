@@ -1,0 +1,51 @@
+{
+  "name": "tinipngcompressor",
+  "version": "1.0.0",
+  "description": "Compress image use Tini PNG api service",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackWolf94/TiniPNGCompressor.git"
+  },
+  "author": "Dmitro Zataidukh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackWolf94/TiniPNGCompressor/issues"
+  },
+  "homepage": "https://github.com/BlackWolf94/TiniPNGCompressor#readme",
+  "devDependencies": {
+    "@types/clear": "^0.1.0",
+    "@types/cli-progress": "^1.8.1",
+    "@types/faker": "^4.1.6",
+    "@types/figlet": "^1.2.0",
+    "@types/jest": "^24.0.18",
+    "@types/js-md5": "^0.4.2",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/node": "^12.11.6",
+    "@types/rimraf": "^2.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "cli-progress": "^3.3.1",
+    "commander": "^3.0.2",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "faker": "^4.1.0",
+    "figlet": "^1.2.4",
+    "path": "^0.12.7",
+    "prettier": "^1.18.2",
+    "rimraf": "latest",
+    "tinify": "^1.6.0-beta.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "dotenv": "latest"
+  }
+}
